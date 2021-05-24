@@ -26,7 +26,7 @@ def index():
         {
             'author': {'username': 'Valjean'},
             'body': 'Who am I? 24601!'
-        }
+        },
         {
             'author': {'username': 'Enjolras'},
             'body': 'Do you hear the people sing? Singing the songs of angry men. It is the music of a people who will not be slaves again!'
