@@ -21,7 +21,15 @@ def index():
         },
         {
             'author': {'username': 'Javert'},
-            'body': 'Valjean! At last! We see each other plain. Monsieur le Mayor, you wear a different chain.'
+            'body': 'Valjean! At last! We see each other plain. Monsieur le maire, you\'ll wear a different chain.'
+        },
+        {
+            'author': {'username': 'Valjean'},
+            'body': 'Who am I? 24601!'
+        }
+        {
+            'author': {'username': 'Enjolras'},
+            'body': 'Do you hear the people sing? Singing the songs of angry men. It is the music of a people who will not be slaves again!'
         }
     ]
     return render_template('index.html', title='Home', user=current_user, posts=posts)
