@@ -24,7 +24,7 @@ def index():
             'body': 'Valjean! At last! We see each other plain. Monsieur le Mayor, you wear a different chain.'
         }
     ]
-    return render_template('index.html', title='Home', user=user, posts=posts)
+    return render_template('index.html', title='Home', user=current_user, posts=posts)
 
 @app.route('/login', methods=['GET','POST'])
 def login():
